@@ -1,1 +1,1 @@
-Statistics for Topcoder Marathon Matches
+Topcoder Marathon Matches Statistics
