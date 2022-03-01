@@ -1,1 +1,1 @@
-Topcoder Marathon Matches Statistics
+Statistics for Topcoder Marathon Matches (MM) and AtCoder Heuristic Contests (AHC)
