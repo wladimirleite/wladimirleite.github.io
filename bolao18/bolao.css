@@ -1,0 +1,648 @@
+body {
+	font-family:"Arial", Sans-serif;
+	background-image: url("img/back.jpg");
+}
+
+img {
+	border:none;
+	vertical-align:middle;
+}
+
+table {
+	border-style:solid;
+	border-width:1px;
+	border-collapse:collapse;
+}
+
+table.externa {
+	width:992px;
+	border-style:none;
+	border-collapse:separate;
+	border-spacing:3px 4px;
+}
+
+table.inicial {
+	width:840px;
+}
+
+table.grupo {
+	width:490px;
+}
+
+tr.grupo {
+	font-size:19px;
+	color:white;
+	background-color:rgb(30,30,90);
+	font-weight:bold;
+	text-shadow:1px 1px black;
+	text-align:center;
+}
+
+td.cabecalho {
+	font-size:38px;
+	color:white;
+	background-color:rgb(30,30,90);
+	font-weight:bold;
+	text-shadow:2px 2px rgb(100,100,100);
+	text-align:center;
+}
+
+td.titulo {
+	border-style:solid;
+	border-width:1px;
+	font-size:38px;
+	color:rgb(30,30,90);
+	background-color:rgb(250,250,255);
+	font-weight:bold;
+	text-shadow:3px 3px rgb(210,210,210);
+	text-align:center;
+}
+
+td.subtitulo {
+	border-style:solid;
+	border-width:1px;
+	font-size:24px;
+	color:rgb(30,30,90);
+	background-color:rgb(250,250,255);
+	font-weight:bold;
+	text-shadow:1px 1px rgb(210,210,210);
+	text-align:center;
+}
+
+td.botoes {
+	width:19%;
+	border-style:solid;
+	border-width:1px;
+	font-size:18px;
+	color:rgb(30,30,90);
+	background-color:rgb(250,250,255);
+	font-weight:bold;
+	text-shadow:2px 2px rgb(210,210,210);
+	text-align:center;
+}
+
+td.botoes:hover {
+	background-color:rgb(225,225,255);
+}
+
+tr.jogo {
+	font-size:15px;
+	color:black;
+	background-color:rgb(246,246,255);
+	font-weight:bold;
+	text-shadow:1px 1px white;
+	text-align:center;
+}
+
+tr.jogo.alt {
+	background-color:rgb(225,225,235);
+}
+
+tr.pont {
+	color:white;
+	background-color:rgb(120,120,164);
+	font-weight:bold;
+	text-shadow:1px 1px rgb(50,50,90);
+	text-align:center;
+}
+
+td {
+	padding:1px 2px 1px 1px;
+	white-space:nowrap;
+}
+
+td.data {
+	font-size:14px;
+	width:30px;
+}
+
+td.inicial {
+	font-size:14px;
+	width:120px;
+}
+
+td.time1 {
+	text-align:right;
+	width:140px;
+}
+
+td.time2 {
+	text-align:left;
+	width:140px;
+}
+
+td.placar {
+	font-size:16px;
+	width:15px;
+}
+
+td.placarinicial {
+	font-size:16px;
+	width:32px;
+}
+
+td.pont {
+	text-align:center;
+	font-size:14px;
+	width:25px;
+}
+
+
+a.subtitulo:link {
+	color:rgb(255,0,0);
+	font-size:26px;
+	text-decoration:none;
+}
+
+a.subtitulo:visited {
+	color:rgb(255,0,0);
+	font-size:26px;
+	text-decoration:none;
+}
+
+a.subtitulo:hover {
+	color:rgb(255,0,0);
+	font-size:26px;
+	text-shadow:2px 2px rgb(210,210,210);
+	text-decoration:underline;
+}
+
+
+
+
+a.stat {
+	display:block;
+	width:18px;
+	height:16px;
+	background-image:url(img/stat.png);
+	background-position:0px 0px;
+}
+
+a.stat:hover {
+	background-position:0px -16px;
+}
+
+a.avanca {
+	border:none;
+	padding:0px 0px 0px 18px;
+	width:18px;
+	height:16px;
+	background-image:url(img/stat2.png);
+	background-position:0px 4px;
+	background-repeat:no-repeat;
+}
+
+a.avanca:hover {
+	background-image:url(img/stat3.png);
+}
+
+a.botoes:link {
+	color:rgb(30,30,90);
+	text-decoration:none;
+}
+
+a.botoes:visited {
+	color:rgb(30,30,90);
+	text-decoration:none;
+}
+
+a.botoes:hover {
+	color:rgb(30,30,90);
+	text-decoration:none;
+}
+
+a.botoes:active {
+	color:rgb(30,30,90);
+	text-decoration:none;
+}
+
+span.destaque {
+	color:rgb(30,30,90);
+	font-weight:bold;
+}
+
+table.finais {
+	border-style:none;
+	background-color:rgb(238,238,245);
+	font-size:15px;
+	color:black;
+	font-weight:bold;
+	text-shadow:1px 1px white;
+	text-align:center;
+}
+
+table.finaisext {
+	border:1px solid black;
+	background-color:rgb(238,238,245);
+}
+
+td.chave {
+	background-color:rgb(110,110,180);
+}
+
+td.bandfinais {
+	background-color:rgb(190,200,220);
+	width:26px;
+	text-align:right;
+}
+
+td.placarfinais {
+	background-color:rgb(190,200,220);
+	text-align:right;
+	width:32px;
+}
+
+td.timefinais {
+	background-color:rgb(190,200,220);
+	text-align:left;
+	width:120px;
+	height:22px;
+}
+
+td.dataoitavas {
+	font-size:14px;
+	vertical-align:bottom;
+	width:36px;
+}
+
+td.horaoitavas {
+	font-size:14px;
+	vertical-align:top;
+}
+
+td.finais {
+	padding:0px;
+	vertical-align:top;
+}
+
+td.dataquartas {
+	font-size:14px;
+	height:48px;
+}
+
+td.datasemis {
+	font-size:14px;
+	height:124px;
+}
+
+td.datafinal {
+	font-size:14px;
+	height:272px;
+}
+
+td.classif {
+	width:68px;
+	font-size:16px;
+}
+
+td.classif.num {
+	width:68px;
+	font-size:16px;
+	text-align:right;
+}
+
+td.classif.pos {
+	font-size:18px;
+	width:68px;
+}
+
+td.classif.tit {
+	font-size:13px;
+}
+
+td.classif.nome {
+	font-size:18px;
+	width:270px;
+	text-align:left;
+}
+
+tr.classif {
+	color:black;
+	background-color:rgb(246,246,255);
+	font-weight:bold;
+	text-shadow:1px 1px white;
+	text-align:center;
+	height:26px;
+}
+
+tr.classif.alt {
+	background-color:rgb(225,225,235);
+}
+
+td.resultado {
+	color:rgb(60,60,140);
+	background-color:rgb(221,221,238);
+	font-size:14px;
+	width:44px;
+	height:20px;
+}
+
+td.resultado.alt {
+	background-color:rgb(204,204,222);
+}
+
+table.pontos {
+	border:none;
+	width:56px;
+}
+
+td.extpontos {
+	padding:0px 5px 0px 0px;
+	width:56px;
+}
+
+td.espaco {
+	padding:0px;
+}
+
+td.pontos {
+	box-shadow:1px 1px 5px rgb(120,120,120);
+	border-radius:5px;
+	font-size:12px;
+	padding:0px;
+	color:white;
+	font-weight:bold;
+	text-shadow:1px 1px black;
+	text-align:center;
+}
+
+td.pontos.p9 {
+	background-color:rgb(192,0,0);
+}
+
+td.pontos.p5 {
+	background-color:rgb(128,0,128);
+}
+
+td.pontos.p4 {
+	background-color:rgb(64,0,192);
+}
+
+td.pontos.p0 {
+	background-color:rgb(220,220,240);
+	color:rgb(180,180,200);
+	text-shadow:1px 1px white;
+}
+
+td.pontos.av {
+	background-color:rgb(20,100,100);
+	box-shadow:1px 1px 5px rgb(20,20,20);
+}
+
+table.classpalpite {
+	background-color:rgb(120,120,164);
+	font-size:14px;
+	color:white;
+	font-weight:bold;
+	text-shadow:1px 1px rgb(50,50,90);
+	text-align:center;
+	width:490px;
+}
+
+td.classtime {
+	text-align:right;
+	width:140px;
+}
+
+td.classpont {
+	text-align:left;
+	width:80px;
+}
+
+table.titulo {
+	width:988px;
+}
+
+td.palpitenome {
+	padding:4px 0px 2px 0px;
+	font-size:32px;
+	color:white;
+	background-color:rgb(100,100,150);
+	font-weight:bold;
+	text-shadow:2px 2px rgb(50,50,50);
+	text-align:center;
+	line-height:75%;
+}
+
+td.palpitenome.top {
+	height:3px;
+}
+
+td.palpitenome.graf {
+	width:728px;
+}
+
+td.timefinais.palpite {
+	text-align:left;
+	width:96px;
+	font-size:14px;
+	vertical-align:middle;
+}
+
+td.extpontos.palpite {
+	background-color:rgb(190,200,220);
+	padding:0px 5px 0px 0px;
+	width:50px;
+}
+
+td.pontos.pelim {
+	background-color:rgb(200,200,220);
+	color:rgb(120,120,140);
+	text-shadow:1px 1px white;
+}
+
+img.band {
+	width:24px;
+	height:19px;
+}
+
+img.logo {
+	width:73px;
+	height:80px;
+}
+
+td.infojogo {
+	padding:4px;
+	font-size:28px;
+	color:white;
+	background-color:rgb(100,100,150);
+	font-weight:bold;
+	text-shadow:1px 1px black;
+	text-align:center;
+}
+
+td.infojogo.time1 {
+	width:220px;
+	text-align:right;
+}
+
+td.infojogo.time2 {
+	width:230px;
+	text-align:left;
+}
+
+td.infojogo.empate {
+	width:80px;
+	font-size:14px;
+}
+
+table.infojogo {
+	width:800px;
+	border-collapse:collapse;
+}
+
+img.bandl {
+	width:64px;
+	height:49px;
+}
+
+td.infojogo.tit {
+	background-color:rgb(120,120,164);
+}
+
+td.infojogo.placar1 {
+	font-size:48px;
+	text-align:right;
+}
+
+td.infojogo.placar2 {
+	font-size:48px;
+	text-align:left;
+}
+
+td.infojogo.estat {
+	background-color:rgb(120,120,164);
+	font-size:20px;
+}
+
+td.infojogo.estat.e1 {
+	text-align:right;
+}
+
+td.infojogo.estat.e2 {
+	text-align:left;
+}
+
+img.estadio {
+	width:256px;
+	height:136px;
+	border-top:1px solid rgb(80,80,100);
+	border-left:1px solid rgb(80,80,100);
+	border-bottom:2px solid rgb(80,80,100);
+	border-right:2px solid rgb(80,80,100);
+}
+
+td.jogopalpite {
+	font-size:16px;
+}
+
+td.jogopalpite.p1 {
+	text-align:right;
+}
+
+td.jogopalpite.p2 {
+	width:110px;
+	text-align:left;
+}
+
+td.jogopalpite.pts {
+	width:120px;
+}
+
+img.foto {
+	width:170px;
+	height:200px;
+	border-top:1px solid rgb(80,80,100);
+	border-left:1px solid rgb(80,80,100);
+	border-bottom:2px solid rgb(80,80,100);
+	border-right:2px solid rgb(80,80,100);
+}
+
+img.graf {
+	width:706px;
+	height:337px;
+	border-top:1px solid rgb(80,80,100);
+	border-left:1px solid rgb(80,80,100);
+	border-bottom:2px solid rgb(80,80,100);
+	border-right:2px solid rgb(80,80,100);
+}
+
+
+table.infojogo {
+	width:600px;
+	border-collapse:collapse;
+}
+
+
+tr.finalista {
+	font-size:12px;
+	color:white;
+	background-color:rgb(26,26,125);
+	font-weight:bold;
+	text-shadow:1px 1px rgb(26,26,55);
+	text-align:center;
+}
+
+td.fin00 {
+	background-color:rgb(236,236,245);
+}
+
+td.fin10 {
+	background-color:rgb(246,246,255);
+}
+
+td.fin01 {
+	background-color:rgb(215,215,225);
+}
+
+td.fin11 {
+	background-color:rgb(225,225,235);
+}
+
+span.pct {
+	font-weight:normal;
+	font-size:11px;
+}
+
+img.bola {
+	width:16px;
+	height:16px;
+}
+
+td.fase {
+	font-size:24px;
+}
+
+
+span.placar1 {
+	background-color:rgb(210,210,240);
+	text-shadow:1px 1px rgb(255,255,255);
+}
+
+span.placar2 {
+	text-shadow:1px 1px rgb(255,255,255);
+}
+
+
+a:link {
+	color:white;
+	text-decoration: none;
+}
+
+a:visited {
+	color:white;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#CC4422;
+}
+
+a:active {
+	color: #CC4422;
+}
+
+span.obs {
+	font-size:13px;
+	color: rgb(90,90,120);
+}
