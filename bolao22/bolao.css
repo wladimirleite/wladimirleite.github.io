@@ -555,6 +555,17 @@ td.jogopalpite.pts {
 	width:120px;
 }
 
+td.pctavanca1 {
+	width:100px;
+	text-align:right;
+}
+
+td.pctavanca2 {
+	width:50px;
+	text-align:right;
+	color:rgb(125,100,100);
+}
+
 img.foto {
 	width:170px;
 	height:200px;
