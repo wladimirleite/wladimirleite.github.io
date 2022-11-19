@@ -172,8 +172,37 @@ a.subtitulo:hover {
 	text-decoration:underline;
 }
 
+a.sl:link {
+	color:rgb(0,0,0);
+	text-decoration:none;
+}
 
+a.sl:visited {
+	color:rgb(0,0,0);
+	text-decoration:none;
+}
 
+a.sl:hover {
+	color:rgb(80,0,0);
+	text-shadow:2px 2px rgb(255,255,255);
+	text-decoration:none;
+}
+
+a.sl2:link {
+	color:rgb(255,255,255);
+	text-decoration:none;
+}
+
+a.sl2:visited {
+	color:rgb(255,255,255);
+	text-decoration:none;
+}
+
+a.sl2:hover {
+	color:rgb(255,240,240);
+	text-shadow:2px 2px rgb(0,0,0);
+	text-decoration:none;
+}
 
 a.stat {
 	display:block;
