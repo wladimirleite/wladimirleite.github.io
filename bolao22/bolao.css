@@ -559,12 +559,11 @@ td.infojogo.estat.e2 {
 }
 
 img.estadio {
-	width:256px;
-	height:136px;
+	width:300px;
 	border-top:1px solid rgb(100,80,80);
 	border-left:1px solid rgb(100,80,80);
-	border-bottom:2px solid rgb(100,80,80);
-	border-right:2px solid rgb(100,80,80);
+	border-bottom:1px solid rgb(100,80,80);
+	border-right:1px solid rgb(100,80,80);
 }
 
 td.jogopalpite {
