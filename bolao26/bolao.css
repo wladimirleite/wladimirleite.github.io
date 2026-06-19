@@ -103,6 +103,19 @@ tr.jogo.alt {
 	background-color:rgb(225,225,235);
 }
 
+tr.clsf {
+	font-size:15px;
+	color:black;
+	background-color:rgb(215,255,225);
+	font-weight:bold;
+	text-shadow:1px 1px white;
+	text-align:center;
+}
+
+tr.clsf.alt {
+	background-color:rgb(195,255,205);
+}
+
 tr.pont {
 	color:white;
 	background-color:rgb(140,140,180);
@@ -453,7 +466,7 @@ td.pontos.p0 {
 }
 
 td.pontos.av {
-	background-color:rgb(20,100,100);
+	background-color:rgb(30,110,110);
 	box-shadow:1px 1px 5px rgb(20,20,20);
 }
 
