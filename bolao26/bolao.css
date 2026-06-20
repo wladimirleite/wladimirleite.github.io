@@ -106,14 +106,27 @@ tr.jogo.alt {
 tr.clsf {
 	font-size:15px;
 	color:black;
-	background-color:rgb(215,255,225);
+	background-color:rgb(225,250,235);
 	font-weight:bold;
 	text-shadow:1px 1px white;
 	text-align:center;
 }
 
 tr.clsf.alt {
-	background-color:rgb(195,255,205);
+	background-color:rgb(205,240,215);
+}
+
+tr.elim {
+	font-size:15px;
+	color:black;
+	background-color:rgb(250,225,235);
+	font-weight:bold;
+	text-shadow:1px 1px white;
+	text-align:center;
+}
+
+tr.elim.alt {
+	background-color:rgb(240,210,220);
 }
 
 tr.pont {
