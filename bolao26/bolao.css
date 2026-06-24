@@ -106,14 +106,14 @@ tr.jogo.alt {
 tr.clsf {
 	font-size:15px;
 	color:black;
-	background-color:rgb(185,255,195);
+	background-color:rgb(155,255,165);
 	font-weight:bold;
 	text-shadow:1px 1px white;
 	text-align:center;
 }
 
 tr.clsf.alt {
-	background-color:rgb(155,255,165);
+	background-color:rgb(185,255,195);
 }
 
 tr.elim {
